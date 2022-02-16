@@ -1,5 +1,9 @@
 .DS_Store
 node_modules
 yarn-error.log
+.firebaserc
+firebase.json
 /cypress/screenshots/
 /__sapper__/
+/.firebase/
+
