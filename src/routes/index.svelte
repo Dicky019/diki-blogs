@@ -7,7 +7,7 @@
     <h1>Welcome to Diki Blog</h1>
     <p>
       Check out the docs on <a
-        href="https://www.github.com/Charca/sapper-blog-template"
+        href="https://github.com/Dicky019/diki-blogs"
         target="_blank">GitHub</a
       > to get started.
     </p>
