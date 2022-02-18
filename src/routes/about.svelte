@@ -1,7 +1,11 @@
+<script>
+  import TransitionWrapper from "../components/TransitionWrapper.svelte";
+</script>
+
 <svelte:head>
   <title>About</title>
 </svelte:head>
-
+<TransitionWrapper>
 <div class="container">
   <h1>About</h1>
   <figure>
@@ -53,7 +57,7 @@
     and I'll give you something to cry about you little bastard!
   </p>
 </div>
-
+</TransitionWrapper>
 <style>
   figure {
     float: right;

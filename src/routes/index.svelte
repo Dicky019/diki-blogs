@@ -1,27 +1,32 @@
+<script>
+  import TransitionWrapper from "../components/TransitionWrapper.svelte";
+</script>
+
 <svelte:head>
   <title>Home</title>
 </svelte:head>
+<TransitionWrapper>
+  <div class="home-container">
+    <div class="home-copy">
+      <h1>Welcome to Diki Blog</h1>
+      <p>
+        Check out the docs on <a
+          href="https://github.com/Dicky019/diki-blogs"
+          target="_blank">GitHub</a
+        > to get started.
+      </p>
+    </div>
 
-<div class="home-container">
-  <div class="home-copy">
-    <h1>Welcome to Diki Blog</h1>
-    <p>
-      Check out the docs on <a
-        href="https://github.com/Dicky019/diki-blogs"
-        target="_blank">GitHub</a
-      > to get started.
-    </p>
+    <figure>
+      <img alt="Person typing on laptop" src="undraw-illustration.svg" />
+      <figcaption>
+        Illustration thanks to <a href="https://undraw.co" target="_blank"
+          >Undraw</a
+        >
+      </figcaption>
+    </figure>
   </div>
-
-  <figure>
-    <img alt="Person typing on laptop" src="undraw-illustration.svg" />
-    <figcaption>
-      Illustration thanks to <a href="https://undraw.co" target="_blank"
-        >Undraw</a
-      >
-    </figcaption>
-  </figure>
-</div>
+</TransitionWrapper>
 
 <style>
   .home-container {

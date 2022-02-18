@@ -7,6 +7,7 @@
 </script>
 
 <script>
+  import TransitionWrapper from "../../components/TransitionWrapper.svelte"
   export let posts;
 </script>
 
@@ -32,7 +33,7 @@
 <svelte:head>
   <title>Blog</title>
 </svelte:head>
-
+<TransitionWrapper>
 <div class="container">
   <h1>Blog</h1>
   {#each posts as post, index}
@@ -50,3 +51,4 @@
     </div>
   {/each}
 </div>
+</TransitionWrapper>
