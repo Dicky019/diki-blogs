@@ -1,6 +1,6 @@
 ---
 title: Tauri
-date: "2022-02-18T18:02:00.000Z"
+date: "2022-02-17T18:02:00.000Z"
 ---
 
 Tauri is a framework for building tiny, blazing fast binaries for all major desktop platforms. Developers can integrate any front-end framework that compiles to HTML, JS and CSS for building their user interface. The backend of the application is a rust-sourced binary with an API that the front-end can interact with.

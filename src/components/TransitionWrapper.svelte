@@ -10,13 +10,13 @@
 </script>
 
 {#if show}
-  <div in:fly={{duration: 600,opacity: 0.05, }}>
+  <div class="transition" in:fly={{duration: 600,opacity: 0.05, }}>
     <slot />
   </div>
 {/if}
 
 <style>
-  div {
+  .transition {
     position: relative;
   }
 </style>

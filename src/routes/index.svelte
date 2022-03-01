@@ -1,11 +1,11 @@
-<script>
+<!-- <script>
   import TransitionWrapper from "../components/TransitionWrapper.svelte";
-</script>
+</script> -->
 
 <svelte:head>
   <title>Home</title>
 </svelte:head>
-<TransitionWrapper>
+<!-- <TransitionWrapper> -->
   <div class="home-container">
     <div class="home-copy">
       <h1>Welcome to Diki Blog</h1>
@@ -26,7 +26,7 @@
       </figcaption>
     </figure>
   </div>
-</TransitionWrapper>
+<!-- </TransitionWrapper> -->
 
 <style>
   .home-container {

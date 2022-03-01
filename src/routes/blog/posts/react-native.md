@@ -3,7 +3,7 @@ title: React Native
 date: 2022-02-16T15:51:00.000Z
 ---
 
-declarative UI framework to iOS and Android. With React Native, you use native UI controls and have full access to the native platform.
+Declarative UI framework to iOS and Android. With React Native, you use native UI controls and have full access to the native platform.
 
 <!-- more -->
 
@@ -33,7 +33,6 @@ React Native is developed and supported by many companies and individual core co
   - [Open Source Roadmap](#open-source-roadmap)
   - [Good First Issues](#good-first-issues)
   - [Discussions](#discussions)
-
 
 ## 📋 Requirements
 
